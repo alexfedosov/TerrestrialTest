@@ -1,0 +1,1 @@
+../../../../Terrestrial/Frameworks/TerrestrialPhotoshoot.framework/Headers/TerrestrialPhotoshoot.h

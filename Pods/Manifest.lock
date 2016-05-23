@@ -1,0 +1,13 @@
+PODS:
+  - SnapKit (0.21.0)
+  - Terrestrial (0.3.6)
+
+DEPENDENCIES:
+  - SnapKit
+  - Terrestrial
+
+SPEC CHECKSUMS:
+  SnapKit: 2756fe24b706367af224c9c508d2f9166d03354c
+  Terrestrial: 6a54987d4de167f7915784a8b1864558483fccbb
+
+COCOAPODS: 0.39.0

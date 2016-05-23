@@ -1,0 +1,6 @@
+// Updated by Terrestrial 2016-05-23 10:46:56 +0300
+
+"Test manually added string"="Ooh, değil çalışır";
+
+// The following translations have been copied from the project base language because no translation was provided for them.
+// iOS requires each Localizable.strings file to contain all keys used in the project. In order to provide proper fallbacks, Terrestrial includes missing translations in each translation resource file.

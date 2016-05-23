@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9562A3201CF2E22800E31624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9562A31F1CF2E22800E31624 /* AppDelegate.swift */; };
-		9562A3221CF2E22800E31624 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9562A3211CF2E22800E31624 /* ViewController.swift */; };
-		9562A3251CF2E22800E31624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9562A3231CF2E22800E31624 /* Main.storyboard */; };
-		9562A3271CF2E22800E31624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9562A3261CF2E22800E31624 /* Assets.xcassets */; };
-		9562A32A1CF2E22800E31624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9562A3281CF2E22800E31624 /* LaunchScreen.storyboard */; };
+		8FBCC5447B24A759181E942C /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CDFCB43FCC8811B1235D0D /* Pods.framework */; };
+		9562A3321CF2E23600E31624 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9562A3311CF2E23600E31624 /* Podfile */; };
+		9562A34D1CF2E6AC00E31624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9562A3431CF2E6AC00E31624 /* AppDelegate.swift */; };
+		9562A3511CF2E6AC00E31624 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9562A3491CF2E6AC00E31624 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48ADE244BB3E959FC982C719 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9562A31C1CF2E22800E31624 /* Terrestrial test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Terrestrial test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9562A31F1CF2E22800E31624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9562A3211CF2E22800E31624 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9562A3241CF2E22800E31624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9562A3261CF2E22800E31624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9562A3291CF2E22800E31624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9562A32B1CF2E22800E31624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9562A3311CF2E23600E31624 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9562A3431CF2E6AC00E31624 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9562A34A1CF2E6AC00E31624 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9562A34B1CF2E6AC00E31624 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9562A3541CF2EC7E00E31624 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9562A3551CF2ECAE00E31624 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		99CDFCB43FCC8811B1235D0D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0ACF24CE16AB161E680B00 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FBCC5447B24A759181E942C /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +41,11 @@
 		9562A3131CF2E22800E31624 = {
 			isa = PBXGroup;
 			children = (
-				9562A31E1CF2E22800E31624 /* Terrestrial test */,
+				9562A3421CF2E6AC00E31624 /* Terrestrial-test */,
+				9562A3311CF2E23600E31624 /* Podfile */,
 				9562A31D1CF2E22800E31624 /* Products */,
+				A9588A159DD04398A54106B8 /* Pods */,
+				CE69EDD1BD46A80AF0F870BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,17 +57,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9562A31E1CF2E22800E31624 /* Terrestrial test */ = {
+		9562A3421CF2E6AC00E31624 /* Terrestrial-test */ = {
 			isa = PBXGroup;
 			children = (
-				9562A31F1CF2E22800E31624 /* AppDelegate.swift */,
-				9562A3211CF2E22800E31624 /* ViewController.swift */,
-				9562A3231CF2E22800E31624 /* Main.storyboard */,
-				9562A3261CF2E22800E31624 /* Assets.xcassets */,
-				9562A3281CF2E22800E31624 /* LaunchScreen.storyboard */,
-				9562A32B1CF2E22800E31624 /* Info.plist */,
+				9562A3431CF2E6AC00E31624 /* AppDelegate.swift */,
+				9562A3491CF2E6AC00E31624 /* Localizable.strings */,
+				9562A34B1CF2E6AC00E31624 /* Info.plist */,
 			);
-			path = "Terrestrial test";
+			path = "Terrestrial-test";
+			sourceTree = "<group>";
+		};
+		A9588A159DD04398A54106B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48ADE244BB3E959FC982C719 /* Pods.debug.xcconfig */,
+				9A0ACF24CE16AB161E680B00 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE69EDD1BD46A80AF0F870BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99CDFCB43FCC8811B1235D0D /* Pods.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +91,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9562A32E1CF2E22800E31624 /* Build configuration list for PBXNativeTarget "Terrestrial test" */;
 			buildPhases = (
+				85F4F74F544F380C39381113 /* Check Pods Manifest.lock */,
 				9562A3181CF2E22800E31624 /* Sources */,
 				9562A3191CF2E22800E31624 /* Frameworks */,
 				9562A31A1CF2E22800E31624 /* Resources */,
+				821883073752C8611DEF78F5 /* Embed Pods Frameworks */,
+				28BD6F33D6ADE3915BF4AA72 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -104,8 +127,10 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
+				fi,
+				tr,
 			);
 			mainGroup = 9562A3131CF2E22800E31624;
 			productRefGroup = 9562A31D1CF2E22800E31624 /* Products */;
@@ -122,41 +147,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9562A32A1CF2E22800E31624 /* LaunchScreen.storyboard in Resources */,
-				9562A3271CF2E22800E31624 /* Assets.xcassets in Resources */,
-				9562A3251CF2E22800E31624 /* Main.storyboard in Resources */,
+				9562A3511CF2E6AC00E31624 /* Localizable.strings in Resources */,
+				9562A3321CF2E23600E31624 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28BD6F33D6ADE3915BF4AA72 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		821883073752C8611DEF78F5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85F4F74F544F380C39381113 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9562A3181CF2E22800E31624 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9562A3221CF2E22800E31624 /* ViewController.swift in Sources */,
-				9562A3201CF2E22800E31624 /* AppDelegate.swift in Sources */,
+				9562A34D1CF2E6AC00E31624 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9562A3231CF2E22800E31624 /* Main.storyboard */ = {
+		9562A3491CF2E6AC00E31624 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9562A3241CF2E22800E31624 /* Base */,
+				9562A34A1CF2E6AC00E31624 /* en */,
+				9562A3541CF2EC7E00E31624 /* fi */,
+				9562A3551CF2ECAE00E31624 /* tr */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9562A3281CF2E22800E31624 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9562A3291CF2E22800E31624 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -247,9 +312,9 @@
 		};
 		9562A32F1CF2E22800E31624 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48ADE244BB3E959FC982C719 /* Pods.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Terrestrial test/Info.plist";
+				INFOPLIST_FILE = "Terrestrial-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.alexfedosov.Terrestrial-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -258,9 +323,9 @@
 		};
 		9562A3301CF2E22800E31624 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A0ACF24CE16AB161E680B00 /* Pods.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Terrestrial test/Info.plist";
+				INFOPLIST_FILE = "Terrestrial-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.alexfedosov.Terrestrial-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +351,7 @@
 				9562A3301CF2E22800E31624 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

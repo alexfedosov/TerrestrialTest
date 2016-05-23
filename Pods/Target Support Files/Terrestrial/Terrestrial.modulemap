@@ -1,0 +1,6 @@
+framework module Terrestrial {
+  umbrella header "Terrestrial-umbrella.h"
+
+  export *
+  module * { export * }
+}
